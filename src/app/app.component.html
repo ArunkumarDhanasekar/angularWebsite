@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="card">
+
+    <!-- <div class="jumbotron"> -->
+    <h1>Login!</h1>
+    <form [formGroup]="loginForm">
+      <div class="form-group">
+        <label id="username">Username:</label>
+        <input type="text" class="form-control" formControlName="username" placeholder="enter user name">
+        <span class="error" *ngIf="username.invalid && username.touched" >Username is required</span>
+      </div>
+      <div class="form-group">
+        <label id="password">Password:</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="enter password">
+        <br>
+      </div>
+      <button type="button" id="login" class="btn btn-primary">Login</button>
+    </form>
+    <!-- </div> -->
+
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <button type="button" id="google" class="btn btn-primary btn-block"> <i class="fa fa-google"></i> Signin with
+        Google</button><br><br>
+      <button type="button" id="facebook" class="btn btn-primary btn-block"> <i class="fa fa-facebook"></i> Signin with
+        facebook</button><br><br>
+      <button type="button" id="twitter" class="btn btn-primary btn-block"> <i class="fa fa-twitter"></i> Signin with
+        twitter</button><br><br>
+      <button type="button" id="github" class="btn btn-primary btn-block"> <i class="fa fa-github"></i> Signin with
+        github</button><br><br>
+    </div>
+
+    <div class="col-md-2">
+      <div class="login-divider">
+        <div class="bar bar-top"></div>
+        <span class="login-or">or</span>
+        <div class="bar bar-bottom"></div>
+      </div>
+
+    </div>
+    <div class="col-md-5">
+      <button type="button" id="signup" class="btn btn-primary btn-lg" routerLink ="/signup" routerLinkActive = "active"> <i class="fa fa-user-plus"></i> Sign  Up</button>
+    </div>
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>

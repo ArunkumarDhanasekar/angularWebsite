@@ -1,0 +1,129 @@
+.card {
+  margin-left: 30%;
+  border-radius: 20px;
+  background-color: rgb(85, 87, 86);
+  margin-top: 20px;
+  margin-bottom: 5%;
+  width: 55%;
+}
+#username,#password {
+  color: white;
+  font-weight: bolder;
+}
+#google,#facebook,#twitter,#github
+ {
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  height: auto;
+  width: auto;
+  font-size: 1.6rem;
+}
+
+#google {
+  background-color: rgb(199, 55, 11);
+}
+
+#facebook {
+  background-color: rgb(23, 72, 204);
+}
+
+#twitter {
+  background-color: rgb(43, 172, 231);
+}
+
+#github {
+  background-color: rgb(87, 85, 85);
+}
+
+#signup {
+  border: none;
+  font-weight: bolder;
+  font-size: 2.7rem;
+  height: 75px;
+  width: auto;
+  margin-top: 15%;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+#login {
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 36%;
+  background-color: rgb(3, 10, 5);
+  border: none;
+
+}
+
+.bar-top {
+  border: 2px solid rgb(58, 53, 53);
+  height: 150px;
+  width: 0px;
+  margin-left: 20px;
+  top: 0;
+}
+
+.bar-bottom {
+  border: 2px solid rgb(58, 53, 53);
+  height: 180px;
+  width: 0px;
+  margin-left: 20px;
+  top: 0;
+
+
+}
+
+.login-or {
+  font-weight: bolder;
+  font-size: 3.2rem;
+  color: violet;
+
+}
+
+#signup {
+  background-color: rgb(240, 248, 246);
+  color: black;
+  font-weight: bolder;
+
+}
+
+.container {
+  width: 50%;
+
+  background-color: rgba(212, 245, 240, 0.892);
+  padding-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+}
+
+.row {
+
+  background-color: black;
+  margin-bottom: 1.5%;
+  padding-top: 4%;
+
+}
+
+.form-group {
+  padding: 3%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+}
+
+input.ng-invalid{
+  border-left: 5px solid red;
+}
+input.ng-valid{
+  border-left: 5px solid green;
+}
+.error{
+  color: red;
+}
